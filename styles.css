@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Vibur";
+}
+
+body {
+  background-color: pink;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+  height: 200px;
+  gap: 10px;
+}
+
+.main-title {
+  font-size: 50px;
+}
+
+.subtitle {
+  font-size: 30px;
+}
+
+.image-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+  z-index: 1;
+}
+
+.image-description {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+.first {
+  height: 500px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.ph {
+  font-size: 40px;
+  cursor: pointer;
+}
