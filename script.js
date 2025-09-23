@@ -8,7 +8,7 @@ const slideMetaData = {
   5:  { date: "July 3, 2025", desc: "Me clocking you while sleeping on our way home from our date night at Cucina Urbana in San Diego." },
   6:  { date: "July 7, 2025", desc: "From the day we were rudely kicked off the lifeguard tower, and that one lady who came up to us afterwards and told us we shouldn't have gotten kicked off haha." },
   7:  { date: "July 11, 2025", desc: "The nice gifts we got for one another for our 1 month anniversary." },
-  8:  { date: "July 12, 2025", desc: "The day you showed me the very cool lookout spot you used to go to all the time. You looked very pretty that day (like all other days)." },
+  8:  { date: "July 12, 2025", desc: "The day you showed me the very cool lookout spot you used to go to all the time. You looked very pretty that day (like all other days)." }, 
   9:  { date: "July 12, 2025", desc: "This was the day we went to Old Town San Diego and got our first ever matching crystal bracelets. We also attempted to go to a Padre's Game this day, however that didn't work out too well." },
   10: { date: "August 17, 2025", desc: "One of my favorite pictures of you and Otter. He looks like a little bunny haha." },
   11: { date: "August 18, 2025", desc: "A cute picture of you two napping together how adorable." },
