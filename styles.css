@@ -37,10 +37,14 @@ body {
   z-index: 1;
 }
 
-.image-description {
-  font-size: 24px;
+.image-description-container {
+  width: 80%;
   margin-top: 10px;
-  margin-bottom: -10px;
+}
+
+.image-description {
+  font-size: 18px;
+  text-align: center;
 }
 
 .first {
@@ -48,10 +52,12 @@ body {
 }
 
 .buttons {
+  position: absolute;
   display: flex;
   justify-content: space-around;
   width: 80%;
   margin-top: 20px;
+  bottom: 30px;
 }
 
 .ph {
@@ -93,12 +99,13 @@ body {
 .date.is-exiting, .image-description.is-exiting   { animation: fadeOut 1600ms ease forwards; }
 
 .daily-start {
-  display: none;
   position: fixed;
   inset: 0;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-top: 40%;
   background: pink;
   z-index: 9999;
 }
@@ -123,6 +130,20 @@ body {
 
 #open-site:hover {
   background: #f0f0f0;
+}
+
+.flower-images {
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.flower {
+  height: 125px;
 }
 
 .container {

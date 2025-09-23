@@ -1,23 +1,23 @@
 const TOTAL_SLIDES = 17;
 
 const slideMetaData = {
-  1:  { date: "June 11, 2025", desc: "Description 1" },
-  2:  { date: "June 20, 2025", desc: "Description 2" },
-  3:  { date: "July 2, 2025", desc: "Description 3" },
-  4:  { date: "July 2, 2025", desc: "Description 4" },
-  5:  { date: "July 3, 2025", desc: "Description 5" },
-  6:  { date: "July 7, 2025", desc: "Description 6" },
-  7:  { date: "July 11, 2025", desc: "Description 7" },
-  8:  { date: "July 12, 2025", desc: "Description 8" },
-  9:  { date: "July 12, 2025", desc: "Description 9" },
-  10: { date: "August 17, 2025", desc: "Description 10" },
-  11: { date: "August 18, 2025", desc: "Description 11" },
-  12: { date: "August 30, 2025", desc: "Description 12" },
-  13: { date: "September 5, 2025", desc: "Description 13" },
-  14: { date: "September 6, 2025", desc: "Description 14" },
-  15: { date: "September 18, 2025", desc: "Description 15" },
-  16: { date: "September 18, 2025", desc: "Description 16" },
-  17: { date: "September 19, 2025", desc: "Description 17" }
+  1:  { date: "June 11, 2025", desc: "My first time visiting Juniper and our first ever mirror picture together." },
+  2:  { date: "June 20, 2025", desc: "Our first time getting boba at my favorite boba shop I was so excited to show you." },
+  3:  { date: "July 2, 2025", desc: "Us attempting to take a cute couples photo along the walkway by the beach in Newport." },
+  4:  { date: "July 2, 2025", desc: "This is the photo I used to hard launch you haha." },
+  5:  { date: "July 3, 2025", desc: "Me clocking you while sleeping on our way home from our date night at Cucina Urbana in San Diego." },
+  6:  { date: "July 7, 2025", desc: "From the day we were rudely kicked off the lifeguard tower, and that one lady who came up to us afterwards and told us we shouldn't have gotten kicked off haha." },
+  7:  { date: "July 11, 2025", desc: "The nice gifts we got for one another for our 1 month anniversary." },
+  8:  { date: "July 12, 2025", desc: "The day you showed me the very cool lookout spot you used to go to all the time. You looked very pretty that day (like all other days)." },
+  9:  { date: "July 12, 2025", desc: "This was the day we went to Old Town San Diego and got our first ever matching crystal bracelets. We also attempted to go to a Padre's Game this day, however that didn't work out too well." },
+  10: { date: "August 17, 2025", desc: "One of my favorite pictures of you and Otter. He looks like a little bunny haha." },
+  11: { date: "August 18, 2025", desc: "A cute picture of you two napping together how adorable." },
+  12: { date: "August 30, 2025", desc: "You attempting to hold Michael & Juno always makes me laugh." },
+  13: { date: "September 5, 2025", desc: "Probably my favorite photo of you. This was at Gonzo Ramen in Carlsbad you look so very pretty." },
+  14: { date: "September 6, 2025", desc: "Clocking you in your favorite pajama pants." },
+  15: { date: "September 11, 2025", desc: "Us visiting Otter together on 9/11 (he was a little terrorist that day)." },
+  16: { date: "September 12, 2025", desc: "The day we went on our first ever hike together and filmed the funny TikTok where we sprinted at full speed in front of one another for the very first time." },
+  17: { date: "September 14, 2025", desc: "The very moment Gogo decided he really likes you and will accept you as his Cat Mom." }
 };
 
 const EXT_PRIORITY = [".jpg", ".jpeg", ".png"];
