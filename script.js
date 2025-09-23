@@ -20,7 +20,7 @@ const slideMetaData = {
   17: { date: "September 14, 2025", desc: "The very moment Gogo decided he really likes you and will accept you as his Cat Mom." }
 };
 
-const EXT_PRIORITY = [".jpg", ".jpeg", ".png", ".JPG"];
+const EXT_PRIORITY = [".jpg", ".jpeg", ".png", ".JPG", ".JPEG", ".PNG"];
 const STORAGE_KEY = "currentSlideIdx";
 
 const dailyStartEl = document.querySelector(".daily-start");
