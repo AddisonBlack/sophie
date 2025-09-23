@@ -48,7 +48,7 @@ body {
 }
 
 .first {
-  height: 400px;
+  height: 375px;
 }
 
 .buttons {
@@ -134,10 +134,11 @@ body {
 }
 
 .flower-images {
-  position: fixed;
+  position: absolute;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   bottom: 50px;
+  width: 80%;
 }
 
 .flower {
