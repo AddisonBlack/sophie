@@ -1,8 +1,8 @@
 const TOTAL_SLIDES = 17;
 
 const slideMetaData = {
-  1:  { date: "June 11, 2025", desc: "My first time visiting Juniper and our first ever mirror picture together." },
-  2:  { date: "June 20, 2025", desc: "Our first time getting boba at my favorite boba shop I was so excited to show you." },
+  1:  { date: "June 11, 2025", desc: "This was the exact day our relationship started - the day I read your note in the parking lot at Coasterra 5 full days after we met and said yes to being your boyfriend." },
+  2:  { date: "June 20, 2025", desc: "Our first time getting boba at my favorite boba shop, I was so excited to bring you there." },
   3:  { date: "July 2, 2025", desc: "Us attempting to take a cute couples photo along the walkway by the beach in Newport." },
   4:  { date: "July 2, 2025", desc: "This is the photo I used to hard launch you haha." },
   5:  { date: "July 3, 2025", desc: "Me clocking you while sleeping on our way home from our date night at Cucina Urbana in San Diego." },
@@ -13,7 +13,7 @@ const slideMetaData = {
   10: { date: "August 17, 2025", desc: "One of my favorite pictures of you and Otter. He looks like a little bunny haha." },
   11: { date: "August 18, 2025", desc: "A cute picture of you two napping together how adorable." },
   12: { date: "August 30, 2025", desc: "You attempting to hold Michael & Juno always makes me laugh." },
-  13: { date: "September 5, 2025", desc: "Probably my favorite photo of you. This was at Gonzo Ramen in Carlsbad you look so very pretty." },
+  13: { date: "September 5, 2025", desc: "Probably my favorite photo of you. This was at Gonzo Ramen in Carlsbad you look ethereal." },
   14: { date: "September 6, 2025", desc: "Clocking you in your favorite pajama pants." },
   15: { date: "September 11, 2025", desc: "Us visiting Otter together on 9/11 (he was a little terrorist that day)." },
   16: { date: "September 12, 2025", desc: "The day we went on our first ever hike together and filmed the funny TikTok where we sprinted at full speed in front of one another for the very first time." },
@@ -54,7 +54,6 @@ function enableSite() {
   localStorage.setItem("dailyStartSeen", localDateYYYYMMDD());
   displaySlide(current);
   preloadAround(current);
-  const audioEl = document.getElementById("bg-audio");
   if (audioEl) {
     audioEl.volume = 0.6;
     audioEl.play().catch(() => {});
@@ -72,6 +71,8 @@ function tryStartAudioOnce() {
     tryStartAudioOnce();
   }, { once: true });
 });
+
+if (openBtn) openBtn.addEventListener("click", enableSite);
 
 const seen = localStorage.getItem("dailyStartSeen");
 const today = localDateYYYYMMDD();
