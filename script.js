@@ -46,13 +46,32 @@ function showDailyStart() {
   containerEl.classList.remove("active");
 }
 
+const audioEl = document.getElementById("bg-audio");
+
 function enableSite() {
   dailyStartEl.style.display = "none";
   containerEl.classList.add("active");
   localStorage.setItem("dailyStartSeen", localDateYYYYMMDD());
   displaySlide(current);
   preloadAround(current);
+  const audioEl = document.getElementById("bg-audio");
+  if (audioEl) {
+    audioEl.volume = 0.6;
+    audioEl.play().catch(() => {});
+  }
 }
+
+function tryStartAudioOnce() {
+  if (audioEl && audioEl.paused) {
+    audioEl.play().catch(() => {});
+  }
+}
+
+["click", "keydown", "touchend"].forEach(evt => {
+  window.addEventListener(evt, () => {
+    tryStartAudioOnce();
+  }, { once: true });
+});
 
 const seen = localStorage.getItem("dailyStartSeen");
 const today = localDateYYYYMMDD();
