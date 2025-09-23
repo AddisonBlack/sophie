@@ -125,6 +125,7 @@ body {
   border-radius: 8px;
   background: #fff;
   cursor: pointer;
+  color: black;
   transition: background 0.3s;
 }
 
@@ -135,7 +136,7 @@ body {
 .flower-images {
   position: fixed;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   bottom: 50px;
 }
 
