@@ -134,12 +134,9 @@ body {
 
 .flower-images {
   position: fixed;
-  bottom: 50px;
-  left: 50%;
-  transform: translateX(-50%);
   display: flex;
   justify-content: space-evenly;
-  width: 100%;
+  bottom: 50px;
 }
 
 .flower {
