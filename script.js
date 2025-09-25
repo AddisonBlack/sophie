@@ -1,4 +1,4 @@
-const TOTAL_SLIDES = 17;
+const TOTAL_SLIDES = 17; 
 
 const slideMetaData = {
   1:  { date: "June 11, 2025", desc: "This was the exact day our relationship started - the day I read your note in the parking lot at Coasterra 5 full days after we met and said yes to being your boyfriend." },
