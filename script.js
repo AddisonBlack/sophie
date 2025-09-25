@@ -4,7 +4,7 @@ const slideMetaData = {
   1:  { date: "June 11, 2025", desc: "This was the exact day our relationship started - the day I read your note in the parking lot at Coasterra 5 full days after we met and said yes to being your boyfriend." },
   2:  { date: "June 20, 2025", desc: "Our first time getting boba at my favorite boba shop, I was so excited to bring you there." },
   3:  { date: "July 2, 2025", desc: "Us attempting to take a cute couples photo along the walkway by the beach in Newport." },
-  4:  { date: "July 2, 2025", desc: "This was our very first mirror picture in my apartment, and was the photo I used to hard launch you -  probably a bit too early but that's okay." },
+  4:  { date: "July 2, 2025", desc: "This was our very first mirror picture in my apartment, and was the photo I used to hard launch our relationship." },
   5:  { date: "July 3, 2025", desc: "Me clocking you while sleeping on our way home from our date night at Cucina Urbana in San Diego." },
   6:  { date: "July 7, 2025", desc: "From the day we were rudely kicked off the lifeguard tower, and that one lady who came up to us afterwards and told us we shouldn't have gotten kicked off haha." },
   7:  { date: "July 11, 2025", desc: "The nice gifts we got for one another for our 1 month anniversary." },
